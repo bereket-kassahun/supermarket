@@ -23,14 +23,12 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 }
-jar {
-	enabled = true
-	classifier = ''
-}
 
 bootJar {
-	enabled = false
+	baseName = 'application-name'
+	version =  '1.0.0'
 }
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
