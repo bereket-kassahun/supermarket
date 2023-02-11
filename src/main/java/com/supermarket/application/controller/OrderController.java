@@ -1,3 +1,4 @@
+
 package com.supermarket.application.controller;
 
 import com.supermarket.application.models.Order;
@@ -20,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-@CrossOrigin(origins= {"https://supermarket-00qp.onrender.com"}, maxAge = 4800, allowCredentials = "true" , methods = {RequestMethod.GET, RequestMethod.DELETE, RequestMethod.POST, RequestMethod.PUT})
+@CrossOrigin(origins= {"https://supermarket-an10.onrender.com"}, maxAge = 4800, allowCredentials = "true" , methods = {RequestMethod.GET, RequestMethod.DELETE, RequestMethod.POST, RequestMethod.PUT})
 @RestController
 @RequestMapping("/orders")
 public class OrderController {
